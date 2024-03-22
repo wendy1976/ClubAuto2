@@ -189,7 +189,7 @@ a:hover{
 }
 
 #imgBackground {
-    background-image: url(/images/vente-location.jpg);   
+    background-image: url(/images/vente-location.webp);   
 }
 
 #vehiculeRecent{
@@ -222,7 +222,7 @@ a:hover{
 }
 
 #imgBackground2 {
-    background-image: url(/images/vehicule3.jpg);   
+    background-image: url(/images/vehicule3.webp);   
 }
 /*opacite des background*/
 #pubFin {
