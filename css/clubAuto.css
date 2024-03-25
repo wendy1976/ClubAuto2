@@ -314,22 +314,45 @@ a:hover{
     margin-left: 5%;   
 } 
 
+/* Media query pour les écrans jusqu'à 768px de largeur */
 @media (max-width: 768px) { /* Ajustez la valeur en fonction de la taille d'écran que vous ciblez */
     #mainNav.bg-light {
       background-color: transparent !important; /* Enlève la couleur de fond */
     }
     .navbar-collapse.show {
-       top: 60px; /* Position du menu déroulé */      
+       top: 60px; /* Position du menu déroulé */
     }
-  }
+}
 
-  /* Styles pour les ordinateurs */
+/* Media query pour les écrans de 768px de largeur et plus */
 @media (min-width: 768px) {
     .navbar {
         /* Ajoutez vos styles spécifiques pour les ordinateurs ici */
         padding-top: 10px !important;
         padding-bottom: 10px !important;
+        margin-top: 0%; /* Ajustez selon vos besoins */
+        padding-top: 0%; /* Ajustez selon vos besoins */
+    }
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Ajoutez vos styles spécifiques pour les tablettes ici */
+    /* Par exemple, pour la classe .navbar */
+    .navbar {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
         margin-top: 0%;
         padding-top: 0%;
     }
+
+    .my-toggler-icon{
+        background-image: url(/images/icons-menu.png);
+        background-size: 30px 30px; /* Ajustez la taille de l'icône selon vos besoins */
+        width: 50px; /* Largeur de l'icône */
+        height: 50px; /* Hauteur de l'icône */
+    }
+
+
+    /* Autres styles pour les tablettes */
 }
